@@ -1,0 +1,48 @@
+@keyframes skeleton {
+  to {
+    opacity: 0.8;
+  }
+}
+
+.postSk {
+  width: 274px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  animation: skeleton 1s ease infinite alternate;
+}
+
+.img {
+  background-color: #313131;
+  width: 274px;
+  height: 153px;
+}
+
+.info {
+  display: flex;
+  margin-top: 15px;
+}
+
+.avatar {
+  background-color: #313131;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text {
+  background-color: #313131;
+  width: 90%;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.text.sm {
+  width: 50%;
+}
